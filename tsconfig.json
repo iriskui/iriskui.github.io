@@ -21,6 +21,10 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src/**/*.ts",
+    "./typings"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
