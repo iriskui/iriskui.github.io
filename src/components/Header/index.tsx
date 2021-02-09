@@ -1,21 +1,29 @@
 import React from 'react';
 import styles from './style.less';
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout, Menu } from 'antd';
+import { useHistory } from "react-router-dom";
 
-const { Header, Content, Footer } = Layout;
+const { Header } = Layout;
 
 const HeaderComp = () => {
+  const history = useHistory();
+
+  const handleClick = (e: any) => {
+    history.push(e.key)
+  };
+
   return (
     <Header className={styles.header}>
       <Menu
-        theme="dark"
+        theme="light"
         mode="horizontal"
-        defaultSelectedKeys={['2']}
+        defaultSelectedKeys={['1']}
         className="menu"
+        onClick={handleClick}
       >
-        <Menu.Item key="1">Home</Menu.Item>
-        <Menu.Item key="2">Work</Menu.Item>
-        <Menu.Item key="3">About</Menu.Item>
+        <Menu.Item key="home">Home</Menu.Item>
+        <Menu.Item key="work">Work</Menu.Item>
+        <Menu.Item key="about">About</Menu.Item>
       </Menu>
     </Header>
   );
