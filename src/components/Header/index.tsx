@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style.less';
 import { Layout, Menu } from 'antd';
-import { useHistory } from "react-router-dom";
+import { useHistory } from 'react-router-dom';
 
 const { Header } = Layout;
 
@@ -9,13 +9,14 @@ const HeaderComp = () => {
   const history = useHistory();
 
   const handleClick = (e: any) => {
-    history.push(e.key)
+    history.push(e.key);
   };
 
   return (
     <Header className={styles.header}>
+      <div style={{ fontSize: 40,backgroundColor:'#000',color:'#fff' }}>SuKui</div>
       <Menu
-        theme="light"
+        theme="dark"
         mode="horizontal"
         defaultSelectedKeys={['1']}
         className="menu"

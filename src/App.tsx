@@ -11,9 +11,16 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Layout>
+        <Layout style={{ height: '100%' }}>
           <Header />
-          <Content style={{ padding: '0 50px', marginTop: 64 }}>
+          <Content
+            style={{
+              // padding: '24px 24px',
+              marginTop: 64,
+              backgroundColor: '#fff',
+              height: '100%',
+            }}
+          >
             <Switch>
               {routes.map(route => (
                 <Route path={route.path} component={route.component} />
