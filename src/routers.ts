@@ -1,6 +1,7 @@
 import About from './pages/About';
 import Home from './pages/Home';
 import Work from './pages/Work';
+import Contact from './pages/Contact';
 
 interface Route {
   name: string;
@@ -20,9 +21,24 @@ export const routes: Route[] = [
     component: Work,
   },
   {
+    name: 'daydream',
+    path: '/daydream',
+    component: Work,
+  },
+  {
+    name: 'objects',
+    path: '/objects',
+    component: Work,
+  },
+  {
     name: 'about',
     path: '/about',
     component: About,
+  },
+  {
+    name: 'contact',
+    path: '/contact',
+    component: Contact,
   },
   {
     name: '默认路由',

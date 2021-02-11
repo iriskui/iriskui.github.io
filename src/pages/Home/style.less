@@ -1,28 +1,107 @@
 .home {
-  background: url('../../assets/img/home.jpg') no-repeat;
   height: 100%;
   width: 100%;
-  background-size: 100%;
 
   :global {
     .title {
       font-size: 40px;
     }
 
-    .daydream {
-      width: 400 * 0.9px;
-      height: 600 * 0.9px;
-      margin-right: 200px;
+    .wrapper {
+      display: flex;
+      justify-content: center;
     }
 
-    .objects {
+    .daydream-wrapper {
+      position: relative;
+      width: 425 * 0.9px;
+      height: 600 * 0.9px;
+      margin-right: 100px;
+
+      .daydream-mask {
+        color: #fff;
+        text-align: center;
+        line-height: 600 * 0.9px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+      }
+
+      .daydream {
+        width: 425 * 0.9px;
+        height: 600 * 0.9px;
+        transition: 0.3s;
+      }
+
+      &:hover {
+        .daydream-mask {
+          opacity: 0.4;
+        }
+      }
+    }
+
+    .objects-wrapper {
+      position: relative;
       width: 450 * 0.9px;
       height: 600 * 0.9px;
+
+      .objects-mask {
+        color: #fff;
+        text-align: center;
+        line-height: 600 * 0.9px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+      }
+
+      .objects {
+        width: 450 * 0.9px;
+        height: 600 * 0.9px;
+      }
+
+      &:hover {
+        .objects-mask {
+          opacity: 0.4;
+        }
+      }
     }
 
-    .home {
-      width: 672 * 1.5px;
-      height: 448 * 1.5px;
+    .image-wrapper {
+      position: relative;
+      width: 450 * 0.9px;
+      height: 600 * 0.9px;
+
+      .image-mask {
+        color: #fff;
+        text-align: center;
+        line-height: 600 * 0.9px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+      }
+
+      .image {
+        width: 450 * 0.9px;
+        height: 600 * 0.9px;
+      }
+
+      &:hover {
+        .image-mask {
+          opacity: 0.4;
+        }
+      }
     }
   }
 }

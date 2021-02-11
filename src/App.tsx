@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import { Layout } from 'antd';
 import { routes } from './routers';
 
@@ -15,7 +16,7 @@ function App() {
           <Header />
           <Content
             style={{
-              // padding: '24px 24px',
+              padding: '40px 80px',
               marginTop: 64,
               backgroundColor: '#fff',
               height: '100%',
@@ -27,6 +28,7 @@ function App() {
               ))}
             </Switch>
           </Content>
+          <Footer />
         </Layout>
       </Router>
     </div>

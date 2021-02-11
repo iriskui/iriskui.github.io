@@ -2,14 +2,34 @@
   position: fixed;
   z-index: 1;
   width: 100%;
-  background-color: #000;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
 
   :global {
     .menu {
       text-align: right;
-      // flex: 1;
+    }
+
+    .ant-menu {
+      border: none;
+      width: 100%;
+
+      .ant-menu-submenu {
+        border: none;
+
+        &:hover {
+          border: none;
+        }
+      }
+
+      .ant-menu-item {
+        border: none;
+
+        &:hover {
+          border: none;
+        }
+      }
     }
   }
 }

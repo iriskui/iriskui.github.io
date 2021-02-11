@@ -4,6 +4,7 @@ import { Layout, Menu } from 'antd';
 import { useHistory } from 'react-router-dom';
 
 const { Header } = Layout;
+const { SubMenu } = Menu;
 
 const HeaderComp = () => {
   const history = useHistory();
@@ -14,17 +15,21 @@ const HeaderComp = () => {
 
   return (
     <Header className={styles.header}>
-      <div style={{ fontSize: 40,backgroundColor:'#000',color:'#fff' }}>SuKui</div>
+      <div style={{ fontSize: 40 }}>SuKui</div>
       <Menu
-        theme="dark"
+        theme="light"
         mode="horizontal"
         defaultSelectedKeys={['1']}
         className="menu"
         onClick={handleClick}
       >
         <Menu.Item key="home">Home</Menu.Item>
-        <Menu.Item key="work">Work</Menu.Item>
+        <SubMenu key="SubMenu" title="Work">
+          <Menu.Item key="daydream">DayDream</Menu.Item>
+          <Menu.Item key="objects">System of Objects</Menu.Item>
+        </SubMenu>
         <Menu.Item key="about">About</Menu.Item>
+        <Menu.Item key="contact">Contact</Menu.Item>
       </Menu>
     </Header>
   );
