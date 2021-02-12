@@ -25,8 +25,8 @@ const HeaderComp = () => {
       >
         <Menu.Item key="home">Home</Menu.Item>
         <SubMenu key="SubMenu" title="Work">
-          <Menu.Item key="daydream">Daydream</Menu.Item>
           <Menu.Item key="objects">The System of Objects</Menu.Item>
+          <Menu.Item key="daydream">Daydream</Menu.Item>
         </SubMenu>
         <Menu.Item key="about">About</Menu.Item>
         <Menu.Item key="contact">Contact</Menu.Item>
