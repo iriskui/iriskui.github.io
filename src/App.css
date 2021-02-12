@@ -5,8 +5,12 @@
   height: 100%;
 }
 
-.ant-image-preview-img {
+.ant-image-preview-img-wrapper {
   padding: 45px 0;
+}
+
+.ant-image-preview-img {
+  border: 2px solid #fff;
 }
 
 .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
