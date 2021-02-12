@@ -1,6 +1,7 @@
 {
   "name": "iriskui",
   "version": "0.1.0",
+  "homepage": "https://iriskui.github.io/SuKui/",
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",
@@ -79,7 +80,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -158,6 +161,7 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.7",
+    "gh-pages": "^3.1.0",
     "less": "^4.1.1",
     "less-loader": "^5.0.0"
   }
