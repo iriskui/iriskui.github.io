@@ -1,6 +1,8 @@
 import About from './pages/About';
 import Home from './pages/Home';
 import Work from './pages/Work';
+import Daydream from './pages/Daydream';
+import Objects from './pages/Objects';
 import Contact from './pages/Contact';
 
 interface Route {
@@ -23,12 +25,12 @@ export const routes: Route[] = [
   {
     name: 'daydream',
     path: '/daydream',
-    component: Work,
+    component: Daydream,
   },
   {
     name: 'objects',
     path: '/objects',
-    component: Work,
+    component: Objects,
   },
   {
     name: 'about',

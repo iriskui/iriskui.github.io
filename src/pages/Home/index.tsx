@@ -10,16 +10,16 @@ const Home = () => {
         <ImageMask
           src={daydreamImg}
           title="Daydream——In the Name of Object"
-          width={425 * 0.9}
-          height={540}
+          width={425}
+          height={600}
           marginRight={100}
           path="/daydream"
         />
         <ImageMask
           src={objectsImg}
           title="The System of Objects"
-          width={450 * 0.9}
-          height={540}
+          width={450}
+          height={600}
           path="/objects"
         />
       </div>

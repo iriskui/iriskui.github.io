@@ -16,10 +16,11 @@ function App() {
           <Header />
           <Content
             style={{
-              padding: '40px 80px',
+              padding: '40px 24px 20px',
               marginTop: 64,
               backgroundColor: '#fff',
-              height: '100%',
+              // height: '100%',
+              minHeight: 620,
             }}
           >
             <Switch>
