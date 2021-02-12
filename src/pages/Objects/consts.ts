@@ -52,87 +52,87 @@ export const DESCRIPTIONS = [
 
 export const images = [
   {
-    src: AnonymityImg,
-    text: 'Anonymity',
-  },
-  {
-    src: BlackHoleImg,
-    text: 'Black Hole',
-  },
-  {
-    src: CombinationImg,
-    text: 'Combination',
-  },
-  {
-    src: GradeImg,
-    text: 'Grade',
-  },
-  {
-    src: GrandHotelImg,
-    text: 'Grand Hotel',
-  },
-  {
-    src: IsolationImg,
-    text: 'Isolation',
-  },
-  {
-    src: LargeCapacityMahjongRoomImg,
-    text: 'Large Capacity Mahjong Room',
-  },
-  {
-    src: MonitorImg,
-    text: 'Monitor',
-  },
-  {
-    src: NeatFreakImg,
-    text: 'Neat Freak',
-  },
-  {
-    src: ObservationDeckImg,
-    text: 'Observation Deck',
+    src: OrderImg,
+    text: 'Order',
   },
   {
     src: OccasionalityImg,
     text: 'Occasionality',
   },
   {
-    src: OptionsImg,
-    text: 'Options',
-  },
-  {
-    src: OrderImg,
-    text: 'Order',
-  },
-  {
-    src: PleaseDrawTheCurtainImg,
-    text: 'Please Draw the Curtain',
-  },
-  {
-    src: PrintImg,
-    text: 'Print',
-  },
-  {
-    src: SlideImg,
-    text: 'Slide',
-  },
-  {
     src: TheSecondFloorImg,
     text: 'The Second Floor',
   },
   {
-    src: VIPTreatmentImg,
-    text: 'VIP Treatment',
-  },
-  {
-    src: WeChatRoundTheAbyssImg,
-    text: 'Sit around the abyss',
+    src: GradeImg,
+    text: 'Grade',
   },
   {
     src: WhenLightsTurnOnImg,
     text: 'When Lights Turn On',
   },
   {
+    src: PleaseDrawTheCurtainImg,
+    text: 'Please Draw the Curtain',
+  },
+  {
+    src: BlackHoleImg,
+    text: 'Black Hole',
+  },
+  {
+    src: SlideImg,
+    text: 'Slide',
+  },
+  {
+    src: IsolationImg,
+    text: 'Isolation',
+  },
+  {
+    src: WeChatRoundTheAbyssImg,
+    text: 'Sit around the abyss',
+  },
+  {
     src: DissipateHeatImg,
     text: 'Dissipate Heat',
+  },
+  {
+    src: CombinationImg,
+    text: 'Combination',
+  },
+  {
+    src: ObservationDeckImg,
+    text: 'Observation Deck',
+  },
+  {
+    src: AnonymityImg,
+    text: 'Anonymity',
+  },
+  {
+    src: MonitorImg,
+    text: 'Monitor',
+  },
+  {
+    src: PrintImg,
+    text: 'Print',
+  },
+  {
+    src: NeatFreakImg,
+    text: 'Neat Freak',
+  },
+  {
+    src: VIPTreatmentImg,
+    text: 'VIP Treatment',
+  },
+  {
+    src: LargeCapacityMahjongRoomImg,
+    text: 'Large Capacity Mahjong Room',
+  },
+  {
+    src: GrandHotelImg,
+    text: 'Grand Hotel',
+  },
+  {
+    src: OptionsImg,
+    text: 'Options',
   },
 ];
