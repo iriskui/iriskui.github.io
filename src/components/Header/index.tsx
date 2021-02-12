@@ -13,9 +13,13 @@ const HeaderComp = () => {
     history.push(e.key);
   };
 
+  const backToHome = () => history.push('/home');
+
   return (
     <Header className={styles.header}>
-      <div className="title">SuKui</div>
+      <div className="title" onClick={backToHome}>
+        SuKui
+      </div>
       <Menu
         theme="light"
         mode="horizontal"
