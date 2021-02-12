@@ -15,7 +15,7 @@ const HeaderComp = () => {
 
   return (
     <Header className={styles.header}>
-      <div style={{ fontSize: 40 }}>SuKui</div>
+      <div className="title">SuKui</div>
       <Menu
         theme="light"
         mode="horizontal"

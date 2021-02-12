@@ -16,10 +16,9 @@ function App() {
           <Header />
           <Content
             style={{
-              padding: '40px 24px 20px',
+              padding: '40px 18vw 20px',
               marginTop: 64,
               backgroundColor: '#fff',
-              // height: '100%',
               minHeight: 620,
             }}
           >

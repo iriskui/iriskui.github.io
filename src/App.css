@@ -4,3 +4,27 @@
   text-align: center;
   height: 100%;
 }
+
+.ant-image-preview-img {
+  padding: 45px 0;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: transparent;
+}
+
+.ant-menu-item {
+  color: #999;
+}
+
+.ant-menu-item-selected {
+  color: #111;
+}
+
+.ant-menu-item:hover {
+  color: #111;
+}
+
+.ant-menu-item:active {
+  background-color: #fff;
+}
