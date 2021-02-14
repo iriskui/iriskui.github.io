@@ -1,4 +1,6 @@
-export const description = `Born in Chengdu, Sichuan, China, 1995. Based on the interest in "object"
+export const name = `苏葵 | Su Kui`;
+
+export const description = `Contemporary photographer. Born in Chengdu, Sichuan, China, 1995. Based on the interest in "object"
 and "material culture", as well as my childhood experience of talking to
 objects and disassembling and reassembling them, my works all focus on
 "object", and reconstruct it through defamiliarization, in an attempt to

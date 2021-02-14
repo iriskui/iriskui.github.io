@@ -24,7 +24,7 @@ export const TITLE = 'The System of Objects';
 
 export const DESCRIPTIONS = [
   `The System of Objects focuses on interior spaces especially modern
-  residential spaces. The black and white style seems to create a serious
+  residential spaces. The black and white photographs seem to create a serious
   and solemn atmosphere. However, in this series, through the stacking and
   splicing of objects, it presents absurdity and abnormality: we can see
   staggered beds which are surrounded by circles of surveillance cameras,

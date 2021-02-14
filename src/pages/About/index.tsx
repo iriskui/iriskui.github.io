@@ -4,12 +4,13 @@ import {
   SOLO_EXHIBITIONS,
   GROUP_EXHIBITIONS,
   description,
+  name,
 } from './const';
 
 const AboutPage = () => {
   return (
     <div className={styles.about}>
-      <h1 className="name">苏葵 | Su Kui</h1>
+      <h1 className="name">{name}</h1>
       <p className="description">{description}</p>
       <h2>AWARDS</h2>
       <ul style={{ marginBottom: 40 }}>
