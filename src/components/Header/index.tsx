@@ -17,8 +17,9 @@ const HeaderComp = () => {
 
   return (
     <Header className={styles.header}>
-      <div className="title" onClick={backToHome}>
-        SuKui
+      <div className="title-wrapper" onClick={backToHome}>
+        <h1 className="title">SuKui</h1>
+        <p className="description">Photography</p>
       </div>
       <Menu
         theme="light"

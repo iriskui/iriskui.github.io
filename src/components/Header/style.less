@@ -13,10 +13,23 @@
   align-items: center;
 
   :global {
-    .title {
-      font-size: 40px;
-      font-weight: 700;
+    .title-wrapper {
       cursor: pointer;
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: initial;
+        margin: 0;
+      }
+
+      .description {
+        margin: 0;
+        margin-top: -10px;
+        line-height: initial;
+      }
     }
 
     .menu {
