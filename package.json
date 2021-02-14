@@ -1,7 +1,7 @@
 {
   "name": "iriskui",
   "version": "0.1.0",
-  "homepage": "https://iriskui.github.io/SuKui/",
+  "homepage": "https://iriskui.github.io",
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",
