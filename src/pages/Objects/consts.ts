@@ -42,9 +42,7 @@ export const DESCRIPTIONS = [
   project various desires on objects and satisfy themselves by giving them
   some concepts. The proliferation, stacking, and splicing of furniture
   and relative objects blur the boundary between "useful" and "useless".`,
-  `Now that the abundance of objects has become an important feature of
-  society, it is no longer people surrounding objects, but objects closely
-  surrounding people. The System of Objects uncharacteristically removes
+  `Now that the abundance of objects has become an important feature of society,  people no longer surround objects, but objects closely surround people. The System of Objects uncharacteristically removes
   the line of sight from people, and devotes wholeheartedly to the
   performance of objects, hoping to provide a new possibility of
   expressing and understanding objects.`,
