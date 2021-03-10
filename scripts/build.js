@@ -14,7 +14,6 @@ process.on('unhandledRejection', err => {
 // Ensure environment variables are read.
 require('../config/env');
 
-
 const path = require('path');
 const chalk = require('react-dev-utils/chalk');
 const fs = require('fs-extra');
@@ -204,9 +203,13 @@ function build(previousFileSizes) {
   });
 }
 
+function getCopyFile(file) {
+  return file !== paths.appHtml || file !== paths.app404;
+}
+
 function copyPublicFolder() {
   fs.copySync(paths.appPublic, paths.appBuild, {
     dereference: true,
-    filter: file => file !== paths.appHtml,
+    filter: getCopyFile,
   });
 }
