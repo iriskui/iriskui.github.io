@@ -24,7 +24,11 @@ function App() {
           >
             <Switch>
               {routes.map(route => (
-                <Route path={route.path} component={route.component} />
+                <Route
+                  path={route.path}
+                  component={route.component}
+                  key={route.path}
+                />
               ))}
             </Switch>
           </Content>
