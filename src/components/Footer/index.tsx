@@ -7,7 +7,7 @@ const { Footer } = Layout;
 const FooterComp = () => {
   return (
     <Footer style={{ textAlign: 'center' }} className={styles.footer}>
-      <p>Copyright © 2021, SuKui. All Rights Reserved.</p>
+      <p>Copyright © 2022, SuKui. All Rights Reserved.</p>
       <p className="notice">Copyright Notice</p>
       <p>
         SuKui copyrights all the art works of this website. No part of any of
