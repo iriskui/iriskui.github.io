@@ -21,31 +21,30 @@ import WhenLightsTurnOnImg from '../../assets/img/objects/When-lights-turn-on.jp
 import DissipateHeatImg from '../../assets/img/objects/Dissipate-heat.jpg';
 
 export const TITLE = 'The System of Objects';
+export const TITLE_Description = '(Ongoing)';
 
 export const DESCRIPTIONS = [
-  `The System of Objects focuses on interior spaces especially modern
-  residential spaces. The black and white photographs seem to create a serious
-  and solemn atmosphere. However, in this series, through the stacking and
-  splicing of objects, it presents absurdity and abnormality: we can see
-  staggered beds which are surrounded by circles of surveillance cameras,
-  toilets stacked by toilet rings which symbolize "rank", countless light
-  bulbs that emit dizzy lights at the same time, interesting visual
-  presentation of the term "neat freak", windows facing different
-  directions haphazardly, curtains that open but only show an empty wall,
-  an absurd indoor viewing device, layers of viaducts that couldn't have
-  been there crisscrossing each other and a row of shoes with only the toe
-  exposed...Both furniture and other objects are deeply deconstructed and
-  reconstructed, presenting a dramatic scene.`,
-  `In this context, the manufacture of objects is not only a technical
-  issue. Its appearance and function are not only based on aesthetic and
-  practical needs, but also show profound sociological principles. People
-  project various desires on objects and satisfy themselves by giving them
-  some concepts. The proliferation, stacking, and splicing of furniture
-  and relative objects blur the boundary between "useful" and "useless".`,
-  `Now that the abundance of objects has become an important feature of society,  people no longer surround objects, but objects closely surround people. The System of Objects uncharacteristically removes
-  the line of sight from people, and devotes wholeheartedly to the
-  performance of objects, hoping to provide a new possibility of
-  expressing and understanding objects.`,
+  `Space is always full of objects. The tangible space is also a kind of object. 
+  The two are closely related. Objects can affect and shape our definition, understanding and impression of spaces.
+  The System of Objects focuses on interior spaces especially modern residential spaces with the structure of spaces, 
+  the shape of objects in them, and the way they are displayed. 
+  Through transforming objects in spaces and sometimes even putting objects belonging to the public space in the private ones, 
+  I suspend the function of objects and spaces and replace them with ones that cannot be easily classified. 
+  It presents some conflicting, interesting, uncoordinated and confused scenes.
+  `,
+  `In daily life, we will divide furniture into chairs, beds, lamps, sofas and so forth. 
+  The residential space is usually composed of bedroom, study, dining room, living room, kitchen, toilet and so forth. 
+  Each category of objects and rooms has a process of "evolution". 
+  For example, I am curious about why the objects and rooms are the way they are now, what kind of evolutionary history it has, 
+  what kind of psychological projection it reflects in addition to carrying practical needs. Each space is not a natural existence, 
+  even private space also carries social functions.`,
+  `The transformation of them shows my exploration of self-consciousness. 
+  The objective meaning is covered by my subjective intention. Here, I try to create my own "system of objects". 
+  More importantly, I hope to discuss how we definite the objects and spaces and explore the complex correlation among objects, spaces, society. 
+  In this context, the manufacture of objects is not only a technical issue. 
+  Its appearance and function are not only based on aesthetic and practical needs, but also show profound sociological principles. 
+  People project various desires on them and satisfy themselves by giving them some concepts. 
+  The defamiliarization of objects and spaces provides a new way to perceive, understand, and reflect on these matters.`,
 ];
 
 export const images = [

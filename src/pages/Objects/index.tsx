@@ -1,7 +1,7 @@
 import styles from './style.less';
 import { Image } from 'antd';
 
-import { DESCRIPTIONS, TITLE, images } from './consts';
+import { DESCRIPTIONS, TITLE,TITLE_Description,images } from './consts';
 
 const Objects = () => {
   const ratio = 0.85;
@@ -9,6 +9,7 @@ const Objects = () => {
   return (
     <div className={styles.work}>
       <h1 className="title">{TITLE}</h1>
+      <h1 className="title-desc">{TITLE_Description}</h1>
       {DESCRIPTIONS.map(item => (
         <p className="description">{item}</p>
       ))}

@@ -1,16 +1,18 @@
 export const name = `蘇葵 | Su Kui`;
 
-export const description = `Su Kui was born in China in 1995. 
-Based on the interest in objects as well as her childhood experience of talking, 
-disassembling, and reassembling them, the work focuses on objects which her reconstruct in images through defamiliarization.
- Su Kui sees it as a dialogue and a collision between reality and illusion,
-  an exploration of her internal experiences while reflecting on topics such as the social meaning of objects and how they interact with each other, spaces and people.`;
+export const paragraph1 = `Su Kui is an artist who uses photographs as materials to create images between reality and illusion. Based on the interest in objects and her childhood experience of talking to, disassembling, and reassembling them, her work focuses on objects, exploring her internal experiences and investigating in topics such as the social meaning of objects and how they interact with each other, spaces, and people. `;
 
-export const awards = `Su Kui's work has been awarded 2020-2021 Annual Photography Art Prize of The Signature Art Prize (China),
- Grand Prize of The First Natural Art Post-85s Chinese Photographer Project, 
- honorable mention of Passpartout Photo Prize,Flying Tiger Prize of the International Residence Image Festival Huangping 2021, 
- and has been selected in the TOP20 2021 Chinese contemporary photography exhibition and New Talents 2021 of Photography Exploration Project. 
- Her work also has been exhibited in the 28th Photo L.A.,
-  Chengdu Contemporary Image Museum, Shanghai Lafayette Art &Design Center,
-   Beijing C5,Lishui Photography Festival, Dali International Photography Exhibition and has been published in Musée Magazine, Seen-Zeen,
-    Yogurt:Mojo Flavour, Chip Foto-Video Digital, Chinese Photography, People’s Photography, Popular Photography, HELLO Chengdu.`;
+export const paragraph2 = `Selected Awards:
+Liquida Photofestival, Special Mention,2022.
+Passepartout Photography Prize, Honorable Mention,2022.
+TOP20·2021 Chinese contemporary photography exhibition, Selected Artist,2021.
+The 2020-2021 Signature Art Prize (China), Annual Photography Art Prize,2021.
+New Talents 2021, Photography Exploration Project, Selected Artist,2021.
+The Natural Art Post-85s Chinese Photographer Project (2020), Grand Prize,2020.
+Artand 2nd Chinese Young Artists Selection, Jury's Choice Award,2019.
+Sony World Photography Awards, Shortlist,2019.
+International Photography Grant, Nominee,2019.`
+
+export const paragraph3 = `Exhibitions include Chengdu Contemporary Image Museum, Shanghai Lafayette Art &Design Center, Beijing C5art ,403 International Art Center, Zhejiang Art Museum, Somerset House, Kommunale Gallerie, the 28th Photo L.A., Lishui Photography Festival, Pingyao International Photography Festival.`
+
+export const paragraph4 = `Publications include Musée Magazine, Yogurt: MOJO flavour, Chopsuey Magazine, See-Zeen Magazine, Zonemag,Broad Magazine, Fraction Magazine, Grandmama’s Print, Chip Foto-Video Digital, Chinese Photography, People’s Photography, Popular Photography, HELLO Chengdu.`
